@@ -277,12 +277,22 @@ Subscribe
 .subscribe input[type=submit] { background: rgb(69, 115, 155);/*rgba(61, 201, 179, 0.5);*/ border: solid 1px rgb(69, 115, 155);/*rgba(61, 201, 179, 0.5); */padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .subscribe input[type=submit]:hover { background: rgb(143, 191, 232); /*rgba(61, 201, 179, 1); */border: solid 1px  rgb(143, 191, 232);/*rgba(61, 201, 179, 1);*/ color: #fff; }
 
-.curriculumvitae { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 140px; }
+.curriculumvitae { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 0; }
 .curriculumvitae h1 { color: #000; margin-bottom: 40px; }
 .curriculumvitae h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
-.curriculumvitae input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
+.curriculumvitae input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 60%; height:20%; color: #fff; }
 .curriculumvitae input[type=submit] {margin:20px; background: rgb(69, 115, 155);/*rgba(61, 201, 179, 0.5);*/ border: solid 1px rgb(69, 115, 155);/*rgba(61, 201, 179, 0.5); */padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .curriculumvitae input[type=submit]:hover { background: rgb(143, 191, 232); /*rgba(61, 201, 179, 1); */border: solid 5px  rgb(143, 191, 232);/*rgba(61, 201, 179, 1);*/ color: #fff; }
+
+.mensaje { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 12px 0 20px; }
+.mensaje h1 { color: #000; margin-bottom: 40px; }
+.mensaje h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
+.mensaje input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 60%; height: 200px; color: #fff; }
+.mensaje input[type=submit] {margin:20px; background: rgb(69, 115, 155);/*rgba(61, 201, 179, 0.5);*/ border: solid 1px rgb(69, 115, 155);/*rgba(61, 201, 179, 0.5); */padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
+.mensaje input[type=submit]:hover { background: rgb(143, 191, 232); /*rgba(61, 201, 179, 1); */border: solid 5px  rgb(143, 191, 232);/*rgba(61, 201, 179, 1);*/ color: #fff; }
+.mensaje input[type=email] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; height:20%; color: #fff; }
+.mensaje textarea { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff;padding: 20px; color: #fff; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
+
 /* ==========================================================================
 CTA
 ========================================================================== */
