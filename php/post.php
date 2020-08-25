@@ -6,7 +6,7 @@ $Email = $_POST['email'];
 $Asunto = $_POST['asunto'];
 $Mensaje = $_POST['mensaje'];
 
-//echo $Nombre;
+echo $Nombre;
 
 echo json_decode('recibido');
   if($Nombre === '' || $Apellido === ''){
