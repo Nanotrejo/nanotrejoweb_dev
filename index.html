@@ -231,7 +231,7 @@
                           <h1>Descarga mi Curriculum Vitae:</h1>
                           <h3>Puedes descargar mi Curriculum Vitae en formato PDF haciendo  <a href="docs/anexo.pdf" style="color:red">click</a>  en el siguiente botón.</h3>
                           <form action="docs/anexo.pdf">
-                            <input type="submit" name="" value="Descargar mi CV">
+                            <input class="btn btn-primary" type="submit" name="" value="Descargar mi CV">
                           </form>
                         </div>
                       </section>
@@ -245,21 +245,20 @@
         <section class="subscribe text-center">
           <div class="container">
             <h1><img src="img/telegramw.png" style="width:40px" id="subscribe"></img></i><span>Envíame un mensaje: </span></h1>
-            <form action="#enviar-mensaje" method="post">
-              <input type="text" name="Nombre" value="" placeholder="Nombre" required>
-              <input type="text" name="Apellido" value="" placeholder="Apellidos" required>
-
+            <form id="formulario" method="post">
+              <input type="text" id="nombre" name="nombre" value="" placeholder="Nombre *" required>
+              <input type="text" id="apellido" name="apellido" value="" placeholder="Apellidos *" required>
             <div class="mensaje">
-                <input type="email" name="email" value="" placeholder="Dirección de correo" required>
+                <input type="email" id="email" name="email" value="" placeholder="Dirección de correo *" required>
             </div>
-            <div class="">
-                  <input type="text" name="Asunto" value="" placeholder="Asunto" required>
+            <div >
+                  <input type="text" id="asunto" name="asunto" value="" placeholder="Asunto *" required>
             </div>
             <div class="mensaje">
-                    <textarea name="Mensaje" placeholder="Mensaje" rows="6" cols="60" required></textarea>
+                    <textarea id="mensaje" name="mensaje" placeholder="Mensaje *" rows="6" cols="60" required></textarea>
             </div>
             <div class="container">
-                <input type="submit" name="" value="Enviar mensaje">
+                <input class="btn btn-primary" type="submit" name="" value="Enviar mensaje">
             </div>
           </div>
           </form>
@@ -276,7 +275,7 @@
               <div class="col-md-4">
                 <div class="light-box box-hover">
                   <h2><img src="img/location.png" style="width:20px"></img><span>Ubicación</span></h2>
-                  <p>Universidad de Salamanca</p>
+                  <p><a href="https://goo.gl/maps/sUANPk7Gxsw79QU18">Universidad de Salamanca</a></p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -327,5 +326,7 @@
         <script src="js/scripts.js"></script>
         <script src="js/jquery.flexslider.js"></script>
         <script src="js/modernizr.js"></script>
+        <script src="js/contact.js"></script>
+          <script src="js/email.js"></script>
       </body>
     </html>

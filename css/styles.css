@@ -276,6 +276,8 @@ Subscribe
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
 .subscribe input[type=submit] { background: rgb(69, 115, 155);/*rgba(61, 201, 179, 0.5);*/ border: solid 1px rgb(69, 115, 155);/*rgba(61, 201, 179, 0.5); */padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .subscribe input[type=submit]:hover { background: rgb(143, 191, 232); /*rgba(61, 201, 179, 1); */border: solid 1px  rgb(143, 191, 232);/*rgba(61, 201, 179, 1);*/ color: #fff; }
+.subscribe button[type=submit] { background: rgb(69, 115, 155);/*rgba(61, 201, 179, 0.5);*/ border: solid 1px rgb(69, 115, 155);/*rgba(61, 201, 179, 0.5); */padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
+.subscribe button[type=submit]:hover { background: rgb(143, 191, 232); /*rgba(61, 201, 179, 1); */border: solid 1px  rgb(143, 191, 232);/*rgba(61, 201, 179, 1);*/ color: #fff; }
 
 .curriculumvitae { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 0; }
 .curriculumvitae h1 { color: #000; margin-bottom: 40px; }
