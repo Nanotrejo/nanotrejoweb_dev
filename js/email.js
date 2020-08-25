@@ -12,12 +12,12 @@ formulario.addEventListener('submit', function(e) {
   console.log(datos.get('asunto'));
 
   fetch('php/post.php',{
-    mode: 'no-cors',
+    //mode: 'no-cors',
     method: 'POST',
     body: datos
   })
 
-  .then(respuesta => respuesta.text())
+  .then(respuesta => respuesta.json())
   .then(data => {
       console.log('Recibo algo');
       console.log(data)
